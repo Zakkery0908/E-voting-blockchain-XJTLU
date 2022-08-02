@@ -2,7 +2,7 @@ package com.example.demo.service.impl;
 
 import com.example.demo.entity.Event;
 import com.example.demo.mapper.EventMapper;
-import com.example.demo.service.IEventService;
+import com.example.demo.service.EventService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-07-27
  */
 @Service
-public class EventServiceImpl extends ServiceImpl<EventMapper, Event> implements IEventService {
+public class EventServiceImpl extends ServiceImpl<EventMapper, Event> implements EventService {
 
 }

@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author jobob
  * @since 2022-07-27
  */
-public interface IEventService extends IService<Event> {
+public interface EventService extends IService<Event> {
 
 }
